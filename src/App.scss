@@ -4,5 +4,29 @@ $primary-color: #ffd700;
 
 @font-face {
   font-family:'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf'); 
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+ }
+
+@font-face {
+  font-family: 'Coolvetica'; 
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+input, 
+textarea {
+  font-family:'helvetica Neue';
 }

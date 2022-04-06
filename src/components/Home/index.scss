@@ -1,0 +1,87 @@
+
+.home-page {
+
+  .text-zone {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    width: 40%;
+    max-height: 90%;
+    z-index: 1;
+    transform: translateY(-50%);
+    transform-style: preserve-3d;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 1s;
+    letter-spacing: 4px;
+  }
+
+  h1 {
+    color: #fff; 
+    font-size: 5rem; 
+    margin: 0; 
+    font-family: 'Coolvetica';
+    font-weight: bold;
+
+    &::before {
+      content: '<h1>'; 
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 20px;
+      position: absolute;
+      margin-top: -40px;
+      left: -55px;  
+      opacity: .5; 
+    }
+
+    &::after {
+      content: '</h1>'; 
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 20px;
+      position: absolute;
+      margin-top: 210px;
+      left: -68px;   
+      opacity: .5; 
+      animation: fadeIn 1s 1.7s backwards; 
+    }
+
+    img {
+      width: 32px; 
+      margin-left: 20px; 
+      opacity: 0; 
+      animation: rotateIn 1s linear both; 
+      animation-delay: 1.5s;
+    }
+  }
+
+  h2 {
+    color : #8d8d8d; 
+    margin-top: 20px; 
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 3px; 
+    animation: fadeIn 1s 2s backwards;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    font-size: 1.3rem;
+    font-weight: bold; 
+    letter-spacing: 3px; 
+    text-decoration: none;
+    animation: fadeIn 1s 2.2s backwards;
+    padding: 10px 18px; 
+    border: 1px solid rgb(0, 0, 0); 
+    margin-top: 15px; 
+    background-color: rgb(26, 24, 24);
+    float: left; 
+    white-space: nowrap; 
+    transition: all 1 ease-in-out;
+
+    &:hover {
+      background-color: #ffd700;
+      color: rgb(31, 31, 31);
+    }
+  }
+}
+

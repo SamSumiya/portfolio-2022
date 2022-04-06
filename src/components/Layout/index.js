@@ -1,12 +1,15 @@
 import './index.scss'
 import React from 'react'
 import { Sidebar } from '../Sidebar'
+import { Home } from '../Home'
 
 
 export const Layout = () => {
+
   return (
     <div className="App">
       <Sidebar />
+      <Home />
       <div className="page">
         <span className="tags top-tags">&lt;body&gt;</span>
         {/* <Outlet /> */}

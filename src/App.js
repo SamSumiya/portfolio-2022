@@ -4,12 +4,13 @@ import { Layout } from './components/Layout'
 import { Home } from './components/Home'
 
 function App() {
+
+  console.log(Home);
+
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />} >
-          <Route index element={<Home />} />
-        </Route>
+        <Route path="/" element={<Layout />} />
       </Routes>
     </>
   )

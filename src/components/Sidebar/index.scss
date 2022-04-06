@@ -33,7 +33,7 @@
     width: 100%;
 
     a {
-      font-size: 22px;
+      font-size: 3rem;
       color: #4d4d4e;
       display: block;
       line-height: 51px;
@@ -98,9 +98,9 @@
   }
 
   ul {
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     width: 100%;
     display: block;
     padding: 0;
@@ -110,10 +110,10 @@
 
     li {
       a {
-        display: inline-block;
+        display: block;
         margin: 0 10px;
-        padding: 7px 0;
-        font-size: 1.5rem;
+        padding: 2rem 1rem;
+        font-size: 2.5rem;
         padding: 0.5rem;
 
         &:hover svg {

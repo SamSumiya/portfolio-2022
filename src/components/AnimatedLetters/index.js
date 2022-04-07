@@ -3,9 +3,6 @@ import React from 'react'
 
 export const AnimatedLetters = ({ letterClass, strArray, idx }) => {
 
-
-  
-
   return (
     <span> 
       {
